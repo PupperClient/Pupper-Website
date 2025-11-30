@@ -1,0 +1,4 @@
+title: Pupper Client
+description: Modern Minecraft PVP Client
+theme: jekyll-theme-cayman
+include: [".well-known"]
