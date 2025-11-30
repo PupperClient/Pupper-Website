@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pupper Client - Modern Minecraft PVP Client</title>
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Segoe UI Font (Windows 11 font) -->
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="icon/logo.png" alt="Pupper Client Logo" class="logo-icon">
+                    <span data-i18n="site_name">Pupper Client</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#features" data-i18n="nav_features">Features</a></li>
+                        <li><a href="#download" data-i18n="nav_download">Download</a></li>
+                        <li><a href="#links" data-i18n="nav_links">Links</a></li>
+                    </ul>
+                </nav>
+                <div class="language-selector">
+                    <select id="language-select">
+                        <option value="en">English</option>
+                        <option value="zh">简体中文</option>
+                        <option value="zh_tw">繁體中文</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span class="material-icons">menu</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 data-i18n="hero_title">Modern Minecraft PVP Client</h1>
+            <p data-i18n="hero_description">Pupper Client is a Minecraft client optimized for PVP, providing smoother gameplay and better performance with a modern Windows 11 design philosophy.</p>
+            <a href="#download" class="cta-button">
+                <span class="material-icons">download</span>
+                <span data-i18n="hero_button">Download Now</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="container">
+            <h2 class="section-title" data-i18n="features_title">Main Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">speed</span>
+                    </div>
+                    <h3 data-i18n="feature1_title">Performance Optimization</h3>
+                    <p data-i18n="feature1_description">Through advanced optimization techniques, significantly improve game frame rate and response speed, providing a smoother PVP experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">visibility</span>
+                    </div>
+                    <h3 data-i18n="feature2_title">Visual Enhancement</h3>
+                    <p data-i18n="feature2_description">Improved game visual effects, including clear hit markers, optimized particle effects and custom HUD elements.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">settings</span>
+                    </div>
+                    <h3 data-i18n="feature3_title">Highly Customizable</h3>
+                    <p data-i18n="feature3_description">Rich setting options allow you to adjust all aspects of the client according to personal preferences to create an exclusive gaming experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">update</span>
+                    </div>
+                    <h3 data-i18n="feature4_title">Continuous Updates</h3>
+                    <p data-i18n="feature4_description">The development team continuously maintains and updates to ensure the client is compatible with the latest version of Minecraft and adds new features.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">security</span>
+                    </div>
+                    <h3 data-i18n="feature5_title">Safe and Reliable</h3>
+                    <p data-i18n="feature5_description">Strictly comply with Minecraft EULA, does not contain any cheating functions, ensuring your account security.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <span class="material-icons">group</span>
+                    </div>
+                    <h3 data-i18n="feature6_title">Active Community</h3>
+                    <p data-i18n="feature6_description">Join our active community to get support, share configurations and communicate with like-minded players.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="section download-section" id="download">
+        <div class="container">
+            <h2 class="section-title" data-i18n="download_title">Download Pupper Client</h2>
+            <div class="download-options">
+                <div class="download-card">
+                    <div class="download-icon">
+                        <img src="icon/fabric.png" alt="Fabric">
+                    </div>
+                    <h3 data-i18n="download_fabric_title">Fabric Version</h3>
+                    <p data-i18n="download_fabric_description">Fabric version for Minecraft 1.21.4</p>
+                    <a href="https://github.com/PupperClient/Pupper-Client/releases" class="download-button">
+                        <span class="material-icons">download</span>
+                        <span data-i18n="download_fabric_button">Download Fabric</span>
+                    </a>
+                </div>
+                <div class="download-card">
+                    <div class="download-icon">
+                        <img src="icon/neoforge.png" alt="NeoForge">
+                    </div>
+                    <h3 data-i18n="download_neoforge_title">NeoForge Version</h3>
+                    <p data-i18n="download_neoforge_description">NeoForge version for Minecraft (Under Development)</p>
+                    <a href="#" class="download-button disabled">
+                        <span class="material-icons">schedule</span>
+                        <span data-i18n="download_neoforge_button">Coming Soon</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Links Section -->
+    <section class="section" id="links">
+        <div class="container">
+            <h2 class="section-title" data-i18n="links_title">Related Links</h2>
+            <div class="links-grid">
+                <div class="link-card">
+                    <span class="material-icons link-icon">download</span>
+                    <h3 data-i18n="link1_title">Download</h3>
+                    <a href="https://github.com/PupperClient/Pupper-Client/releases" target="_blank" data-i18n="link1_text">GitHub Releases</a>
+                </div>
+                <div class="link-card">
+                    <span class="material-icons link-icon">chat</span>
+                    <h3 data-i18n="link2_title">Discord</h3>
+                    <a href="https://discord.gg/8FbSHb7F" target="_blank" data-i18n="link2_text">Join Discord Community</a>
+                </div>
+                <div class="link-card">
+                    <span class="material-icons link-icon">code</span>
+                    <h3 data-i18n="link3_title">GitHub</h3>
+                    <a href="https://github.com/PupperClient/" target="_blank" data-i18n="link3_text">Visit GitHub</a>
+                </div>
+                <div class="link-card">
+                    <span class="material-icons link-icon">group</span>
+                    <h3 data-i18n="link4_title">QQ Group</h3>
+                    <a href="#" data-i18n="link4_text">1023334402</a>
+                </div>
+                <div class="link-card">
+                    <span class="material-icons link-icon">fabrics</span>
+                    <h3 data-i18n="link5_title">Fabric Version</h3>
+                    <a href="https://github.com/PupperClient/Pupper-Client" target="_blank" data-i18n="link5_text">GitHub Repository</a>
+                </div>
+                <div class="link-card">
+                    <span class="material-icons link-icon">construction</span>
+                    <h3 data-i18n="link6_title">NeoForge Version</h3>
+                    <a href="#" data-i18n="link6_text">Under Development</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="icon/logo.png" alt="Pupper Client Logo" class="footer-logo-icon">
+                        <span data-i18n="site_name">Pupper Client</span>
+                    </div>
+                    <p data-i18n="footer_description">Pupper Client is a modern Minecraft PVP client focused on providing better gaming performance and user experience.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer_quick_links">Quick Links</h4>
+                    <ul>
+                        <li><a href="#features" data-i18n="nav_features">Features</a></li>
+                        <li><a href="#download" data-i18n="nav_download">Download</a></li>
+                        <li><a href="#links" data-i18n="nav_links">Links</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4 data-i18n="footer_contact">Contact Us</h4>
+                    <ul>
+                        <li><a href="https://github.com/PupperClient/" target="_blank" data-i18n="link3_title">GitHub</a></li>
+                        <li><a href="https://discord.gg/8FbSHb7F" target="_blank" data-i18n="link2_title">Discord</a></li>
+                        <li><a href="#" data-i18n="link4_title">QQ Group: 1023334402</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <span data-i18n="footer_copyright">&copy; 2023 Pupper Client. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
