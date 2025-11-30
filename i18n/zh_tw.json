@@ -42,5 +42,16 @@
     "footer_description": "Pupper Client是一個現代化的Minecraft PVP客戶端，專注於提供更好的遊戲性能和用戶體驗。",
     "footer_quick_links": "快速連結",
     "footer_contact": "聯絡我們",
-    "footer_copyright": "© 2025 Pupper Client. 保留所有權利。"
+    "footer_copyright": "© 2025 Pupper Client. 保留所有權利。",
+    "download_choose_title": "選擇下載方式",
+    "download_choose_description": "請選擇您偏好的下載方式",
+    "download_choose_button": "選擇下載選項",
+    "modal_download_title": "下載 Pupper Client",
+    "modal_option_modrinth": "Modrinth",
+    "modal_option_modrinth_desc": "從 Modrinth 平台下載",
+    "modal_option_github": "GitHub Release",
+    "modal_option_github_desc": "GitHub 上的穩定版本",
+    "modal_option_actions": "GitHub Actions",
+    "modal_option_actions_desc": "CI 管道的最新構建版本",
+    "modal_download": "下載"
 }
